@@ -2,7 +2,7 @@
 Script para conectar SQL Server on premise a um Azure Data Storage
 
 # Objetivo 
-Com esse script e possivel criar uma integração entre o azure data storage, como funciona o synape.
+Com esse script é possivel criar uma integração entre o azure data storage, como funciona o synape.
 Será possivel criar external tables possibilitando a utilização no banco relacional.
   
 
@@ -13,4 +13,7 @@ Será possivel criar external tables possibilitando a utilização no banco rela
 
 
 # Problemas encontrados 
-Alguns tipos de dados não são encontrados como numeric(x,x), varcharing() principalmente de arquivos parquet 
+Alguns tipos de dados não são encontrados como numeric(x,x), varcharing() principalmente de arquivos parquet. 
+As permissões tem que ser herdadas do data storage se estiver usando um usuário ad no sql server ele tem que direitos de acesso.
+
+ 
